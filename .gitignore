@@ -1,0 +1,4 @@
+node_modules/
+.env
+GUIDE.html
+INSTRUCTIONS.txt
