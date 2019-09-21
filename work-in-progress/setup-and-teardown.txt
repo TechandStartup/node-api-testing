@@ -1,0 +1,22 @@
+How to set up and tear down:
+
+Before each test block add items to the db:
+
+let article1 = Article.create({title: "Learn Testing", content: "Lorem Ipsum", published: true})
+
+In the test block use an after hook to delete all items from the table:
+
+describe('Articles', () => {
+  after(async () => {  
+    await Article.deleteMany()
+  })
+
+Or if you just add one then delete one:
+describe('Articles', () => {
+  // console.log(2, article1._id);
+
+  beforeEach((done) => { 
+    Article.deleteOne({}, (err) => { 
+       done();       
+    });   
+  });

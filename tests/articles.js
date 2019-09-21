@@ -10,13 +10,6 @@ chai.use(chaiHttp);
 let article1 = Article.create({title: "Learn Testing", content: "Lorem Ipsum", published: true})
 
 describe('Articles', () => {
-  // console.log(2, article1._id);
-
-  // beforeEach((done) => { 
-  //   Article.deleteOne({}, (err) => { 
-  //      done();       
-  //   });   
-  // });
   after(async () => {  
     await Article.deleteMany()
   })

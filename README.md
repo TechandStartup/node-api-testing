@@ -8,6 +8,9 @@
 
 **Documentation:** https://www.techandstartup.com/guides/nodejs-api-testing
 
+**Work in progress** folder contains notes for unresolved questions. 
+
+**Run this app:**
 To use this app you need to have either a local or cloud version of MongoDB. 
 Then change the .env-example file name to just .env, and make sure the MONGODB_URI constant is set to the right URI of your database. If you have MongoDB running locally and have a database named my_test_db then it is set correctly.
 
