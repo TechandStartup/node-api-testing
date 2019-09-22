@@ -6,9 +6,9 @@
 
 **Status:** Unfinished first draft. Not ready for use.
 
-**Documentation:** https://www.techandstartup.com/guides/nodejs-api-testing
+**Documentation:** https://www.techandstartup.com/guides/nodejs/api-testing
 
-**Work in progress** folder contains notes for unresolved questions. 
+**Work in progress:** folder contains notes for unresolved questions. 
 
 **Run this app:**
 To use this app you need to have either a local or cloud version of MongoDB. 
